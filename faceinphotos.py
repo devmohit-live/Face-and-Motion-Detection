@@ -22,11 +22,14 @@ import cv2
 
 
 #<------------------ Face Detection starts here --------------->
+
+
+
 # Create a cascade classifier object
-face_cascade=cv2.CascadeClassifier("C:\\Users\\Mohit\\Documents\\GitHub\\fnmd\\haarcascade_frontalface_default.xml")
+face_cascade=cv2.CascadeClassifier("") #haarcascade.xml path
 
 # reading the image
-img=cv2.imread("C:\\Users\\Mohit\\Desktop\\IMG_20180604_205904.jpg")
+img=cv2.imread("")  #path of your photo
 # reading the image as gray scale
 gray_img=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 # Search the co-ordinates of image

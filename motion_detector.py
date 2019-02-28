@@ -12,7 +12,8 @@ status_list = [None,None]
 times = []
 df=pandas.DataFrame(columns=["Start","End"])
 
-video = cv2.VideoCapture("http://172.20.39.90:8080/video")
+video = cv2.VideoCapture("") # path of your ip-cam use 0 for default webcam 1,2,etc for other physically attached webcams
+
 
 while True:
     check, frame = video.read()

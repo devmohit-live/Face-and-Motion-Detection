@@ -5,3 +5,5 @@ Use Case:
 
 use plotting.py to use motion detection.
 Press Q to exit the program
+
+faceinphotots.py file is used to detetct faces in photos. yoy have to provide path of the image in the python file first

@@ -12,5 +12,5 @@ faceinphotots.py file is used to detetct faces in photos. yoy have to provide pa
 # Use 0,1,etc numers according to the physically installed cameras to capture images.video streams,
 if using IP cameras use the url of the video stream
 ### Example:
-### Use : http://192.168.3.103:8080/video  ip/videostreaming_path
-### if there is authentication required pass the username and password inn this format: http://username:password@192.168.3.103:8080/video
+### Use : http://ip/video  ip/videostreaming_path
+### if there is authentication required pass the username and password inn this format: http://username:password@ip/video
